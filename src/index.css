@@ -1,13 +1,85 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #23252C;
+  font-family: Inter;
+  color: #FFF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card{
+  background: #1A1B21;
+  width: 400px;
+  margin: auto; /* sets card in center */
+  padding: auto;
+   border-radius: 10px;
+}
+
+.card-image{
+  width: 400px;
+  height: 460px;
+   border-radius: 10px 10px 0px 0px;
+}
+
+.footer{
+  background: #161619;
+  padding: 10px;
+  display: flex;
+  border-radius: 0px 0px 10px 10px;
+  
+}
+
+.footer>img{
+  margin: auto; /* sets everything in center */
+}
+
+.info>h1, .info>h4, .info>h5,.info>button{
+  margin-left: 20px;
+  padding: 0px;
+  line-height: 5px;
+}
+.info>button{
+   width: 115px;
+   height: 34px;
+   background: #5093E2;
+   border-radius: 6px;
+   font-family: Inter;
+   font-weight: 500;
+   margin-left: 40px;
+   margin-right: 40px;
+   color: white;
+   
+}
+
+.info>button:hover{
+  width: 125px;
+  height: 40px;
+  background: #165399;
+}
+
+.about{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #F5F5F5;
+  margin: 40px 40px 40px 40px;
+  padding: 0px;
+}
+
+.about>h3{
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.info>h4{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  color: #F3BF99;
+}
+
+.info>h1, .info>h4, .info>h5{
+text-align: center;
 }
